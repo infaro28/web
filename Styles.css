@@ -26,3 +26,16 @@
     font-family: "Winter";
     src: url(Winter\ flakes.ttf);    
   }
+
+  @font-face {
+    font-family: "JT";
+    src: url(JIMTH___.TTF);    
+  }
+  @font-face {
+    font-family: "budm";
+    src: url(budmo\ jigglish.ttf);    
+  }
+  @font-face {
+    font-family: "neon";
+    src: url(NEON\ ABSOLUTE\ SANS1.ttf);    
+  }
