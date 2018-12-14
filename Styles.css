@@ -1,6 +1,7 @@
 body{
   background-image: url("4wqOtlb.jpg");
   background-size: cover; 
+  margin: 10;
 }
 
 .jumbotron {
@@ -45,4 +46,4 @@ body{
   @font-face {
     font-family: "neon";
     src: url(NEON\ ABSOLUTE\ SANS1.ttf);    
-  } 
+  }
