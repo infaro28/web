@@ -1,3 +1,12 @@
+body{
+  background-image: url("4wqOtlb.jpg");
+  background-size: cover; 
+  margin: 0;
+}
+
+.jumbotron {
+  background-color: rgb(150,150,150,0.5);
+}
 @font-face {
     font-family: "CC";
     src: url(The\ Perfect\ Christmas.ttf);    
@@ -6,7 +15,7 @@
     font-family: "Cupid";
     src: url(KLCupid.ttf);    
   }
-  @font-face {
+  /* @font-face {
     font-family: "Star";
     src: url(All\ Star\ Resort.ttf);    
   }
@@ -37,4 +46,4 @@
   @font-face {
     font-family: "neon";
     src: url(NEON\ ABSOLUTE\ SANS1.ttf);    
-  }
+  } */
