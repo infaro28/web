@@ -1,7 +1,7 @@
 body{
   background-image: url("4wqOtlb.jpg");
-  background-size: cover; 
-  margin: 10;
+  background-size: cover;
+  padding: 2rem;
 }
 
 .jumbotron {
