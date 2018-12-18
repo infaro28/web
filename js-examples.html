@@ -50,6 +50,45 @@
         var result = input + 1;
        console.log(result);
 
+    function displayContent(){
+
+            alert("Hey who turn off the lights?");
+            
+            document.write("hey who turn off the lights???  <h2>Geronimo!</h2>");
+            document.writeln("Dynamic!!<br>");
+            document.writeln(new Date());
+            
+            //cONSOLE  logs 
+            console.log('HIDDEN');   
+            console.info('just information');
+            console.debug('debug message');
+            console.error('error message');
+
+            try{
+                // everything is fine
+                throw "this is unexpected"; 
+            }
+            catch(ex){
+                // but if fails
+                console.error(ex.message);
+            }
+
+            function sayHello(){
+                alert('You hit!');
+            }
+        
+            function askSomething(){
+            var input = prompt("say something");
+            console.log(input);
+
+                //Create an H3 the give it a text
+                var text = document.createElement("h3");
+                text.innerText = input;
+
+            document.getElementById("dynamicSection").appendChild(text);
+            
+       }
+    }
     </script>
 
 
