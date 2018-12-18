@@ -46,12 +46,16 @@
         text.innerText = input;
 
        document.getElementById("dynamicSection").appendChild(text);
-    }
+
+        var result = input + 1;
+       console.log(result);
+
     </script>
 
 
     <br>
     <section  id = "dynamicSection">
+       <button onclick="displayContent()">Display Content</button>
        <button id='askBUTTON' onclick="askSomething()">Ask something</button> <br>
        <button id="hitButton" onclick="sayHello()"> Hit me</button>
     </section>
