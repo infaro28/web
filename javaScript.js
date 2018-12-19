@@ -39,3 +39,11 @@ function sayHello(){
     //say: HELLO, <NAME>
     // show it (append)
 }
+function WyN(){
+    var input = prompt("What's your Name");
+    console.log(input);
+    var text = document.createElement("h3");
+    text.innerText = "Hello,   " + input;
+    let section = document.getElementById("practice");            
+    section.appendChild(text);
+   }
