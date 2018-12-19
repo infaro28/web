@@ -37,4 +37,5 @@ function sayHello(){
 
     //ask the name
     //say: HELLO, <NAME>
+    // show it (append)
 }
