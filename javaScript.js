@@ -1,6 +1,3 @@
-alert("Hello");
-alert("how are you?");
-alert("What's your bday");
 
 console.log("Hidden message");
 console.log(100);
@@ -20,5 +17,24 @@ function paint(){
     var color = document.getElementById("colorValue");
 
     section.style.backgroundColor = color.value;
+
+    //alert color value
+    console.log(color.value);
+
+    var text = document.createElement("p");
+
+    text.innerHTML = "You selected..."+ color.value;
+    section.appendChild(text);
+    //section.innertext = "You selected:" + color.value;
+
     
+}
+
+function sayHello(){
+    alert("Hello");
+    alert("how are you?");
+    alert("What's your bday");
+
+    //ask the name
+    //say: HELLO, <NAME>
 }

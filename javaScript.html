@@ -11,9 +11,9 @@
 <body>
     <section id="dynamicSection">
         <h4>Hello!</h4>
-        <button onclick="alert('hello')">Ask</button>
+        <button onclick="sayHello()">Ask</button>
     </section>
     <button onclick="paint()">Paint</button>
-    <input type="text"  id = "colorValue"/>
+    <input type="color"  id = "colorValue"  onchange="paint()"/>
 </body>
 </html>
