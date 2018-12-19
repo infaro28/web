@@ -13,4 +13,8 @@ document.writeln(new Date());
 document.writeln("<h2> This is H2 </h2>");
 document.writeln("<h3 style='color:	#ff084a;'>This is H3</h3>");
 
-function paint()
+function paint(){
+    document.getElementById("dynamicSection");
+
+    var section = document.getElementById("dinamicSection");
+}
