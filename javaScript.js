@@ -33,17 +33,19 @@ function paint(){
 function sayHello(){
     alert("Hello");
     alert("how are you?");
-    alert("What's your bday");
-
-    //ask the name
-    //say: HELLO, <NAME>
-    // show it (append)
+    alert("What's your bday"); 
 }
 function WyN(){
+    // 1. ask the name
     var input = prompt("What's your Name");
     console.log(input);
+    
+     // 2. say: HELLO, <NAME>
+    alert("Hello, " + input);
+    
+    // 3. show it (append)
     var text = document.createElement("h3");
-    text.innerText = "Hello,   " + input;
+    text.innerText = "That's your name? Really?   " + input;
     let section = document.getElementById("practice");            
-    section.appendChild(text);
+    section.appendChild(text); 
    }
