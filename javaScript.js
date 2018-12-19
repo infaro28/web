@@ -12,8 +12,7 @@ document.writeln("<h3 style='color:	#ff084a;'>This is H3</h3>");
 function paint(){
     var section = document.getElementById("dynamicSection");
 
-    section.className = "highlight";
-
+    
     var color = document.getElementById("colorValue");
 
     section.style.backgroundColor = color.value;
@@ -44,8 +43,19 @@ function WyN(){
     alert("Hello, " + input);
     
     // 3. show it (append)
-    var text = document.createElement("h3");
-    text.innerText = "That's your name? Really?   " + input;
-    let section = document.getElementById("practice");            
-    section.appendChild(text); 
+
+    //var text = document.createElement("h3");
+    //text.innerText = "That's your name? Really?   " + input;
+    //let section = document.getElementById("practice");            
+    //section.appendChild(text); 
+
+    var section = document.getElementById("practice");
+    section.append(input);
+   }
+
+   function toggleHighlight() {
+       var textSection = document.getElementById("textSection");
+       
+       textSection.className = "highlight";
+
    }
