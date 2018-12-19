@@ -20,4 +20,5 @@ function paint(){
     var color = document.getElementById("colorValue");
 
     section.style.backgroundColor = color.value;
+    
 }
